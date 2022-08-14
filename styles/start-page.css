@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #edeef0;
+    position: relative;
+}
+
+.start-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #45a3bf;
+    width: 90px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.start-button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: large;
+    font-family: Arial, sans-serif;
+}
