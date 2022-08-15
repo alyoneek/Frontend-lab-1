@@ -11,7 +11,7 @@ body {
 
 body > header {
     background: #507299;
-    height: 45px;
+    height: 40px;
     display: flex;
     align-items: center;
     position: fixed;
@@ -26,7 +26,7 @@ body > header .logo {
 }
 
 body > header #logo-pic {
-    width: 23px;
+    width: 20px;
     height: 100%;
     float: left;
     margin-right: 15px;
@@ -40,8 +40,8 @@ body > header h1 {
 }
 
 body > .content {
-    padding-top: 45px;
-    min-height: 100vh;
+    padding-top: 40px;
+    min-height: calc(100vh - 40px);
     position: relative;
 }
 
@@ -49,6 +49,7 @@ body > .content > aside {
     background: #6788ae;
     width: 15%;
     position: absolute;
+
     height: 100%;
     padding-top: 30px;
 }
@@ -71,16 +72,79 @@ body > .content > aside ul li a:hover {
 
 .main-content {
     margin-left: 15%;
+    margin-right: 300px;
 }
 
 .main-content-wrapper {
     background: #ffffff;
     border-radius: 10px;
     border: 1px #e7e7e7 solid;
-    margin: 30px 0 0 20px;
-    width: 80%;
+    margin: 30px 0 20px 20px;
+    padding: 25px 20px 40px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-.main-content img {
+.main-content #first-cat-pic{
     width: 300px;
+    height: 300px;
+}
+
+.main-content #second-cat-pic{
+    width: 300px;
+    height: 360px;
+}
+
+.main-content #third-cat-pic{
+    width: 300px;
+    height: 390px;
+}
+
+.main-content #fourth-cat-pic{
+    width: 300px;
+    height: 220px;
+}
+
+.main-content #fifth-cat-pic{
+    width: 300px;
+    height: 250px;
+}
+
+.main-content #sixth-cat-pic{
+    width: 300px;
+    height: 300px;
+}
+
+.main-content .fixed-pic-wrapper {
+    margin-top: 30px;
+}
+
+.main-content #fixed-cat-pic {
+    position: fixed;
+    top: 70px;
+    right: 50px;
+}
+
+body > footer {
+    background: #ffffff;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+body > footer #footer-cat{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+
+body > footer h1 {
+    color: #a8b5c6;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: right;
+    padding-right: 150px;
 }
